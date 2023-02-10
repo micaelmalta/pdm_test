@@ -1,0 +1,10 @@
+[project]
+name = "package_a"
+version = "0.0.1"
+description = ""
+requires-python = ">= 3.7.2,<4.0"
+dependencies = [
+    "core @ file:///${PROJECT_ROOT}/../core",
+
+]
+
